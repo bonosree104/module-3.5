@@ -1,0 +1,48 @@
+h1{
+    color:goldenrod;
+}
+h1:hover{
+    color:red;
+    font-size: 100px;
+    background-color: goldenrod;
+}
+input:focus{
+    color:greenyellow;
+    font-size: 50px;
+}
+li:first-child{
+    color:red;
+    
+}
+li:last-child{
+    color:blueviolet;
+}
+li:nth-child(2n){
+    color:green;
+}
+a:visited{
+    color: red;
+}
+h1::before{
+    content:"beautiful";
+    font-size:15px;
+    color:green;
+}
+h1::after{
+    content: "1971";
+    font-size:20px;
+    color:red;
+}
+body {
+    counter-reset: section;                       /* Set a counter named 'section', and its initial value is 0. */
+  }
+  
+  p::before {
+    counter-increment: section;                   /* Increment the value of section counter by 1 */
+    content: "crush " counter(section) ": ";    /* Display the word 'Section ', the value of 
+                                                     section counter, and a colon before the content
+                                                     of each h3 */
+  }
+  p::before{
+      content:"❤️"
+  }

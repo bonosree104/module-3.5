@@ -1,0 +1,19 @@
+.container{
+background-color:lightblue;
+}
+div{
+    height:100px;
+    width:100px;
+}
+#first{
+    background-color:green;
+}
+#second{
+    background-color:red;
+    position: absolute;
+    left:100px;
+    top:100px;
+}
+#third{
+    background-color:yellow;
+}
